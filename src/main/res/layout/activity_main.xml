@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="DeepGuard Antivirus"
+        android:textColor="#BD1414"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/scan_apps_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:background="#FF5252"
+
+        android:elevation="4dp"
+        android:text="Scan Apps"
+        android:textColor="#371414" />
+
+    <Button
+        android:id="@+id/scan_files_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:background="#FF5252"
+
+        android:elevation="4dp"
+        android:text="File scanner "
+        android:textColor="#371414" />
+
+    <Button
+        android:id="@+id/update_db_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#FF5252"
+        android:backgroundTint="#FF5252"
+        android:elevation="4dp"
+        android:text="Update Malware DB"
+        android:textColor="#2C1818" />
+
+    <Button
+        android:id="@+id/live_scan_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#FF5252"
+        android:backgroundTint="#DE4040"
+        android:elevation="4dp"
+        android:text="Live Scan"
+        android:textColor="#100F0F"
+        android:textColorLink="#0B0404" />
+
+    <Button
+        android:id="@+id/permissions_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:background="#FF5252"
+        android:backgroundTint="#F44336"
+        android:elevation="2dp"
+        android:text="App Permissions"
+        android:textColor="#2C0E0E" />
+
+    <ProgressBar
+        android:id="@+id/scan_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <ListView
+        android:id="@+id/scan_results_list"
+        style="@style/Widget.AppCompat.Light.ListView.DropDown"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="#D9D4D4"
+        android:cacheColorHint="#D1BCBC"
+        android:elevation="2dp"
+        android:theme="@style/TextAppearance.Material3.TitleMedium" />
+</LinearLayout>
