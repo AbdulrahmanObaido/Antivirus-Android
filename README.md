@@ -1,4 +1,4 @@
-# DeepGuard Antivirus
+# Illusion Antivirus
 
 **DeepGuard Antivirus** is a modern Android antivirus app for scanning files and installed applications (including system apps) for malware, spyware, and viruses.  
 It uses a hash-based detection engine and supports both full device and individual folder scans.
